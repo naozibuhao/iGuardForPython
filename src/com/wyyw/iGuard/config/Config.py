@@ -4,11 +4,11 @@
 
 class Config:
     #被文件夹路径  (后期期望添加多个文件夹按照|分隔) 也就是要保护网站的根目录
-    FOLDERPATH= "D:\\Soft\\norsebak"
+    FOLDERPATH= "D:\\RDPback"
     #受保护文件夹路径 (当文件被篡改,从该文件夹中获取文件将其替换)   
-    SECFOLDERPATH= "D:\\Soft\\norse"
+    SECFOLDERPATH= "D:\\RDP"
     #样本文件夹 将所有的变更的文件进行备份
-    BACKUPFOLDERPATH="D:\\Soft\\backup"
+    BACKUPFOLDERPATH="D:\\backup"
     #日志文件路径 (系统运行日志存放路径)
     LOGPATH= "D://log"
     #日志打印级别  从高到低依次是： SEVERE->WARNING->INFO->CONFIG->FINE->FINER->FINESET

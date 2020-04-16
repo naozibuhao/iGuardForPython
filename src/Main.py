@@ -14,10 +14,10 @@ class Main:
         pass
     def menu(self):
         
-        print '1.替代发布'
-        print '2.检测目标程序'
-        print '3.运行防篡改工具'
-        str = input("请输入菜单编号:")
+        print u'1.替代发布'
+        print u'2.检测目标程序'
+        print u'3.运行防篡改工具'
+        str = input(u"请输入菜单编号:")
         print str
         
     def watch(self):
@@ -27,12 +27,12 @@ class Main:
         # 轮询机制
         runpolling()
 if __name__ == '__main__':
-    print "监控文件  : ",Config.FOLDERPATH
+    print u"监控文件  : ",Config.FOLDERPATH
     main = Main()
     try:
-        print "启动轮询机制"
+        print u"启动轮询机制"
         thread.start_new_thread(main.pollingThread, ())
-        print "启动事件驱动"
+        print u"启动事件驱动"
         thread.start_new_thread(main.watch,())
         # 增加线程阻塞
         while 1:

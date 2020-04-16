@@ -12,7 +12,7 @@ import shutil
 
 from com.wyyw.iGuard.Util.UtilTool import UtilTool
 from com.wyyw.iGuard.config.Config import Config
-from wheel import paths
+
 
 
 class FileDev:

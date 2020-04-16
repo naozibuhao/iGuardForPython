@@ -77,20 +77,20 @@ class pollingFloder:
         pass    
 
 def runing():
-    print "轮询开始"
+    print u"轮询开始"
     
     pollingfloder = pollingFloder()
-    print "准备正向对比内容"
+    print u"准备正向对比内容"
     
     pollingfloder.poolFloder()
-    print "正向对比结束"
-    print "准备逆向对比"
+    print u"正向对比结束"
+    print u"准备逆向对比"
     pollingfloder.poolingFloderreverse()
-    print "逆向对比结束"
-    print "准备轮询文件夹"
+    print u"逆向对比结束"
+    print u"准备轮询文件夹"
     pollingfloder.removeFloder()
-    print "文件夹轮询结束"
-    print "轮询结束"
+    print u"文件夹轮询结束"
+    print u"轮询结束"
     
 def runpolling():
     while 1:    
